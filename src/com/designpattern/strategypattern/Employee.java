@@ -29,5 +29,13 @@ public class Employee {
 		setRole(newRole);
 	}
 	
+	public static void main(String[] args) {
+		Employee e=new Employee("rahul", new Developer());
+		System.out.println(e.getName()+" will "+e.getRole().description());
+		e.promotion(new Teamlead());
+		System.out.println(e.getName()+" will "+ e.getRole().description());
+		
+		
+	}
 
 }
