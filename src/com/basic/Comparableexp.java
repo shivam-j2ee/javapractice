@@ -51,7 +51,7 @@ public class Comparableexp  implements Comparable<Comparableexp>{
 		Comparableexp c1=new Comparableexp();
 		Comparableexp c2=new Comparableexp();
 		
-		c1.setSalary(3000);
+		c1.setSalary(30001);
 		c2.setSalary(2000);
 		List<Comparableexp> l=new  ArrayList<>();
 		l.add(c1);
